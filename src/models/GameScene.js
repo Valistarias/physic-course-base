@@ -2,10 +2,8 @@ const Base = require('./BaseModel.js')
  
 module.exports = class Gamescene extends Base {
  
-    constructor(THREE, CANNON, scene, world) {
+    constructor(THREE, scene) {
         super(THREE, scene)
-        this._Physics = CANNON
-        this._World = world
 
         this._init()
     }

@@ -35,7 +35,7 @@ const scene = new THREE.Scene()
 const camera = new Cam(THREE, scene, {
 })
 	
-const gameScene = new GScene(THREE, CANNON, scene, world)
+const gameScene = new GScene(THREE, scene)
 
 
 
